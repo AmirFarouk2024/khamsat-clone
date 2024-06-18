@@ -1,0 +1,136 @@
+body {
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+ 
+}
+h1 {
+  text-align: center;
+  color: #eb6600;
+  font-size: 500px;
+}
+
+.one {
+display: flex;
+justify-content: center;
+height: 100%;
+flex-wrap: wrap;
+}
+
+
+
+
+
+
+.two {
+width: 300px;
+height: 300px;;
+
+margin:10px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.two img {
+     position: absolute;
+     width: 250px;
+     height: 250px;
+     z-index: -1;
+     border-radius:50px;
+     -webkit-border-radius:10px;
+     -moz-border-radius:50px;
+     -ms-border-radius:50px;
+     -o-border-radius:50px;
+     box-shadow:  3px 3px 10px 6px rgba(84, 83, 83, 0.227);
+     opacity: 0.7;
+}
+
+.two h3 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;}
+
+.three {
+  width: 300px;;
+  height: 300px;;
+  
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  .three img {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  z-index: -1;
+    border-radius:50px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:50px;
+  -ms-border-radius:50px;
+  -o-border-radius:50px;
+  box-shadow:  3px 3px 10px 6px rgba(84, 83, 83, 0.227);
+  opacity: 0.7;
+}
+  
+
+
+  .three h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;  }
+
+  
+.four {
+  width: 300px;;
+  height: 300px;;
+  
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+  
+  
+  .four img {
+
+  
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  z-index: -1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow:  3px 3px 10px 6px rgba(84, 83, 83, 0.227);
+  opacity: 0.7;
+}
+  
+  
+ 
+  .four h3 {
+    color: rgb(255, 255, 255);
+  font-size: 30px;
+
+  }
+  .one :hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
